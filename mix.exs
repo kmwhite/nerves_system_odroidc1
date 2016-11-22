@@ -32,7 +32,7 @@ defmodule NervesSystemOdroidC1.Mixfile do
   end
 
   defp package do
-    [maintainers: ["Frank Hunleth", "Justin Schneck"],
+    [maintainers: ["Bas Vermin"],
     files: ["LICENSE", "mix.exs", "nerves_defconfig", "nerves.exs", "README.md", "VERSION", "rootfs-additions", "fwup.conf", "boot.ini", "linux-3.10.defconfig", "config.txt", "post-createfs.sh"],
      licenses: ["Apache 2.0"],
      links: %{"Github" => "https://github.com/nimrev/nerves_system_odroidc1"}]
